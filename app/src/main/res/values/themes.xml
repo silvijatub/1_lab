@@ -6,4 +6,13 @@
     </style>
 
     <style name="Theme._1_lab" parent="Base.Theme._1_lab" />
+
+    <style name="Theme._1_lab.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme._1_lab.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme._1_lab.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
